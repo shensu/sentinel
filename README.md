@@ -21,7 +21,7 @@ Update system packages and ensure virtualenv is installed:
     $ sudo apt-get update
     $ sudo apt-get -y install python-virtualenv
 
-Make sure the local Galactrum daemon running is at least version 1.1.3 (1010301)
+Make sure the local Galactrum daemon running is at least version 1.1.5 (1010501)
 
     $ galactrum-cli getinfo | grep version
 
